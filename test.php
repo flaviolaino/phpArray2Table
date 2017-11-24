@@ -17,7 +17,7 @@ $data = [
     [
         'firstname' => 'Elvira',
         'surname' => 'Mueller',
-        'age' => 50,
+        'age' => 5,
         'email' => 'elviramueller@example.com',
     ],
     [
@@ -34,7 +34,7 @@ $data = [
         'surname' => 'Kelley',
         'age' => 50,
         'email' => 'bowenkelley@example.com',
-    ],
+    ]
 ];
 
 $renderer = new phpArray2Table($data);

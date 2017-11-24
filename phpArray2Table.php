@@ -7,7 +7,7 @@
  *
  * @author      Flavio Laino <info@flaviolaino.it>
  * @license     http://opensource.org/licenses/MIT
- * @link        TODO
+ * @link        https://github.com/flaviolaino/phpArray2Table/
  */
 
 class phpArray2Table

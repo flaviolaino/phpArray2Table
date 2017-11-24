@@ -1,8 +1,13 @@
 {
   "name": "php-array-2-table",
+  "productName": "phpArray2Table",
   "version": "1.0.0",
   "description": "PHP library with zero dependencies that convert array data into ascii table",
   "main": "test.php",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flaviolaino/phpArray2Table.git"
+  },
   "scripts": {
     "test": "php test.php"
   },
@@ -11,6 +16,9 @@
     "ascii",
     "table"
   ],
-  "author": "Flavio Laino",
+  "author": {
+    "name": "Flavio Laino",
+    "email": "info@flaviolaino.it"
+  },
   "license": "MIT"
 }
