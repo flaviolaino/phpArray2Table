@@ -1,0 +1,16 @@
+{
+  "name": "php-array-2-table",
+  "version": "1.0.0",
+  "description": "PHP library with zero dependencies that convert array data into ascii table",
+  "main": "test.php",
+  "scripts": {
+    "test": "php test.php"
+  },
+  "keywords": [
+    "array",
+    "ascii",
+    "table"
+  ],
+  "author": "Flavio Laino",
+  "license": "MIT"
+}
