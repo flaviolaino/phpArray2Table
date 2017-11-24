@@ -233,6 +233,11 @@ class phpArray2Table
 			$this->widths[$key] = 0;
 
 		$width = mb_strlen($value);
+
+		if (!empty($this->valueMaxLength) && $width > $this->valueMaxLength){
+			$width = $this->valueMaxLength + 1;
+		}
+
 		if ($width > $this->widths[$key])
 			$this->widths[$key] = $width;
 	}
